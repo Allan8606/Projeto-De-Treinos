@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    max-width: 570px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #2b2a2a;
+}
+
+header img {
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+/* SECTION PRINCIPAL */
+
+.plano {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.plano h1 {
+    margin-top: 60px;
+    font-size: 30px;
+    text-align: center;
+    color: #d8cdcd;
+}
+.plano img {
+    width: 300px;
+    border-radius: 5px;
+}
+.plano a {
+    text-decoration: none;
+    color: #d8cdcd;
+    background-color: #ed0518;
+    padding: 8px 20px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.plano a:hover {
+    background-color: #c02b38;
+}
+
+/* SECTION TREINOS */
+
+.treinos {
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.treinos div {
+    margin-bottom: 15px;
+}
+.treinos div img {
+    width: 180px;
+}
+
+.treinos div h2 {
+    color: #d8cdcd;
+    text-align: center;
+    font-size: 20px;
+}
